@@ -18,9 +18,6 @@ library(here)
 date_str <- format(Sys.Date(), "%Y%m%d")
 print(date_str)
 
-# Make a variable that contains the directory where you want to save your results to
-#save_dir <- "/home/danne/Documents/programmering/R/skord/output"
-
 source(paste0(here(),"/code/get_smhi_data.R"))
 
 # Make a tibble with all of the station ids and Produktionsområden
