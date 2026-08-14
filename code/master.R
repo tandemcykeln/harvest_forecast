@@ -170,7 +170,7 @@ print(current_week)
 nr_var <- 3
 
 # === IF I WANT TO MAKE CALCULATIONS FROM A SPECIFIC WEEK, HERE IS THE PLACE TO DO IT ===
-current_week <- 26
+#current_week <- 26
 
 weather_week_wide2<- weather_week_wide[, 1:((current_week*nr_var)+2)]
 
